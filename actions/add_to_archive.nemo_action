@@ -35,6 +35,6 @@ Name[uk]=Додати в архів
 Name[pl]=Dodaj do archiwum
 Comment=Add files and folders to archive with PeaZip
 Icon-Name=peazip_add
-Exec=flatpak run io.github.peazip.PeaZip -add2archive %F
+Exec=peazip -add2archive %F
 Selection=notnone
 Extensions=any
