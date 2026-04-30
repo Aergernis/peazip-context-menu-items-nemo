@@ -30,7 +30,7 @@ Name[ru]=Извлечь сюда (в новую папку)
 Name[uk]=Витягти сюди (в нову папку)
 Name[pl]=Wypakuj tutaj (do nowego katalogu)
 Comment=Extract archives here (in new folder) with PeaZip
-Exec=flatpak run io.github.peazip.PeaZip -ext2folder %F
+Exec=peazip -ext2folder %F
 Icon-Name=peazip_extract
 Selection=s
 
