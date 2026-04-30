@@ -30,7 +30,7 @@ Name[ru]=Открыть как архив
 Name[uk]=Відкрити як архів
 Name[pl]=Otwórz jako archiwum
 Comment=Open as archive in PeaZip
-Exec=flatpak run io.github.peazip.PeaZip -ext2browse %F
+Exec=peazip -ext2browse %F
 Icon-Name=peazip_app
 Selection=s
 
